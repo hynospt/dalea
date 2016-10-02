@@ -1,0 +1,24 @@
+.sidebar .sidebar-nav ul li a{
+    color:#FFF;
+}
+.sidebar .sidebar-nav ul li a:hover, .sidebar .sidebar-nav ul li a:active, .sidebar ul li a.active, .sidebar{
+    background-color:#18365b!important;
+}
+.sidebar .sidebar-nav ul li a{
+    background-color: #18365b!important;
+}
+nav{
+    background-color: #EEE!important;
+}
+.navbar-header{
+    background-color: #EEE !important;
+}
+.navbar-brand img{
+    width:12.5% !important;
+    position: relative;
+    left: 85px;
+}
+.table thead{
+    background-color:#18365b!important;
+    color: #FFF;
+}
