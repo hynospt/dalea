@@ -10,7 +10,7 @@ use App\Products;
 use App\Slider;
 use App\Social;
 use Illuminate\Http\Request;
-
+use App\Images;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\About;
@@ -51,7 +51,10 @@ class HomeController extends Controller
 
         $news = News::all();
 
-        return view('home.index', compact('abouts','footer','socials', 'slider', 'careers' ,'i', 'products', 'news'));
+        $image1 = Images::find(1);
+        $image2 = Images::find(2);
+        
+        return view('home.index', compact('abouts','footer','socials', 'slider', 'careers' ,'i', 'products', 'news', 'image1', 'image2'));
     }
 
     /**

@@ -49,6 +49,7 @@ Route::get('/about/create', 'AboutController@create');
 Route::get('/about/delete/{id}', 'AboutController@destroy');
 Route::post('/about', 'AboutController@store');
 Route::post('/about/update', 'AboutController@update');
+Route::post('/about/update_image', 'AboutController@update_image');
 
 Route::get('/slider/index', 'SliderController@index');
 Route::get('/slider/create', 'SliderController@create');

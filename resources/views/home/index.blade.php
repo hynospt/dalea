@@ -215,6 +215,16 @@
         </div><!-- End of Leadership Team -->
 
         <div id="team" class="about-content"><!-- Leadership Team -->
+            <div style="opacity: 1; display: block;" id="team-bg">
+                <div class="team-left" style="background-image: url('{{url('images')}}/directors/{{$image1->image_name}}');">
+
+                    <div class="overlay"></div>
+                </div>
+                
+                <div class="team-right" style="background-image: url('{{url('images')}}/directors/{{$image2->image_name}}');">
+                    <div class="overlay"></div>
+                </div>
+            </div>
             {!! $abouts[3]['content'] !!}
         </div><!-- End of Leadership Team -->
 
